@@ -1,0 +1,301 @@
+html {
+    font-family: ubuntu;
+}
+
+nav ul a, nav .brand-logo {
+    color: #444;
+}
+
+.keystone-logo {
+    height: 48px;
+    margin-top: 4px;
+}
+
+p {
+    line-height: 2rem;
+}
+
+footer.page-footer {
+    margin: 0;
+}
+
+.social {
+    width: 30px;
+    margin-right: 7px;
+}
+
+.button-collapse {
+    color: #F27F2D;
+}
+
+.parallax-container {
+    height: 33vw;
+    min-height: 320px;
+    line-height: 0;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 78%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 18%;
+    }
+    h1 {
+        margin: 0;
+    }
+}
+
+.parallax img {
+    width: 100%;
+    min-width: 700px;
+}
+
+@media only screen and (min-width: 700px) {
+    #map {
+        margin: 0 15%;
+    }
+    .plan {
+        margin: 0 15%;
+    }
+}
+
+.orange {
+    background-color: #F27F2D !important;
+}
+
+.orange-text {
+    color: #F27F2D !important;
+}
+
+.blue {
+    background-color: #304A70 !important;
+}
+
+.blue-text {
+    color: #304A70 !important;
+}
+
+h1 {
+    font-size: calc(35px + 2vw);
+    line-height: 110%;
+    margin: auto;
+}
+
+.neon {
+  text-shadow: 0 0 0.9em #000, 0 0 1.5em #000, 0 0 2.7em #000;
+}
+
+h2 {
+    font-size: calc(21px + 1.5vw);
+}
+
+h3 {
+    font-size: 30px;
+    padding: 8px 0;
+    margin: 0;
+}
+
+h4 {
+    font-size: 1.64rem;
+    line-height: 110%;
+    margin: 0.82rem 0 0.656rem 0
+}
+
+h5 {
+    line-height: 25px;
+    font-size: 18px;
+    margin: 5px 0 0 0;
+}
+
+@font-face {
+    font-family: "ubuntu";
+    src: url("../fonts/ubuntu/ubuntu-light.eot");
+    src: url("../fonts/ubuntu/ubuntu-light.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu/ubuntu-light.woff2") format("woff2"), url("../fonts/ubuntu/ubuntu-light.woff") format("woff"), url("../fonts/ubuntu/ubuntu-light.ttf") format("truetype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "ubuntu";
+    src: url("../fonts/ubuntu/ubuntu-regular.eot");
+    src: url("../fonts/ubuntu/ubuntu-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu/ubuntu-regular.woff2") format("woff2"), url("../fonts/ubuntu/ubuntu-regular.woff") format("woff"), url("../fonts/ubuntu/ubuntu-regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "ubuntu";
+    src: url("../fonts/ubuntu/ubuntu-medium.eot");
+    src: url("../fonts/ubuntu/ubuntu-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu/ubuntu-medium.woff2") format("woff2"), url("../fonts/ubuntu/ubuntu-medium.woff") format("woff"), url("../fonts/ubuntu/ubuntu-medium.ttf") format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "ubuntu";
+    src: url("../fonts/ubuntu/ubuntu-bold.eot");
+    src: url("../fonts/ubuntu/ubuntu-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ubuntu/ubuntu-bold.woff2") format("woff2"), url("../fonts/ubuntu/ubuntu-bold.woff") format("woff"), url("../fonts/ubuntu/ubuntu-bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+.side-nav {
+    width: 275px;
+}
+
+.side-nav li>a>i.material-icons {
+    margin: 0 15px 0 0;
+}
+
+i.icontext {
+    vertical-align: middle !important;
+    margin: 0 3px 0 0;
+}
+
+.side-nav-icon {
+    width: 20px;
+    margin: 0 15px 0 2px;
+    vertical-align: middle;
+}
+
+.tabs .indicator {
+    background-color: #F27F2D;
+}
+
+.zero {
+  padding: 0 !important;
+}
+
+.model-img {
+    width: 100%;
+    max-width: 700px !important;
+    margin-bottom: -6px;
+}
+
+.specs-img {
+    width: 50%;
+    min-width: 50px;
+    max-width: 70px;
+}
+
+.ame-img {
+    height: 1vw;
+    min-height: 50px;
+    margin-bottom: -15px;
+}
+
+.photos-img {
+    padding: .3vw;
+}
+
+.tour-btn {
+    margin-top: 20px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.87);
+    margin: 0;
+    padding: 0;
+}
+
+.team-card {
+    margin-bottom: 15px;
+}
+
+.team-img-big {
+    width: 18vw;
+    min-width: 150px;
+    display: block;
+    border-radius: 50%;
+    margin: 22px auto 0 auto;
+}
+
+.team-img-small {
+    width: 12vw;
+    min-width: 125px;
+    display: block;
+    border-radius: 50%;
+    margin: 22px auto 0 auto;
+}
+
+.team-name {
+    margin-top: 29px;
+}
+
+.team-title {
+    margin: 0 0 7px 0;
+}
+
+.team-btn {
+    margin-bottom: 20px;
+}
+
+.team-bio-img {
+    width: 40px;
+    margin: 0 10px -12px 0;
+}
+
+.team-bio-text {
+    line-height: 22px;
+}
+
+.menu_links {
+    cursor: pointer;
+}
+
+.card {
+    margin: 10px;
+}
+
+.btn {
+  padding: 0 .7rem;
+}
+
+i.left {
+    float: left;
+    margin-right: 7px;
+}
+
+.input-field input[type=text]:focus+label {
+    color: #f27f2d;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #304A70;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+.input-field input[type=tel]:focus+label {
+    color: #f27f2d;
+}
+
+.input-field input[type=tel]:focus {
+    border-bottom: 1px solid #304A70;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+.input-field input[type=email]:focus+label {
+    color: #f27f2d;
+}
+
+.input-field input[type=email]:focus {
+    border-bottom: 1px solid #304A70;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+.row .col {
+  padding: 0;
+}
